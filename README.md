@@ -17,31 +17,28 @@
 
 1. **Клонируйте репозиторий:**
    ```
-   bash
    
-   git clone [https://github.com/твой-логин/имя-репозитория.git](https://github.com/твой-логин/имя-репозитория.git)
-   cd Telegram_bot
-   Создайте и активируйте виртуальное окружение:
-    Bash
+   1. git clone [https://github.com/твой-логин/имя-репозитория.git](https://github.com/твой-логин/имя-репозитория.git)
+      cd Telegram_bot
+      Создайте и активируйте виртуальное окружение:
+   
 
-    python -m venv venv
-    # Для Windows:
-    venv\Scripts\activate
+    2. python -m venv venv # Для MacOs / Linux 
+       # Для Windows:
+       venv\Scripts\activate
 
-    Установите зависимости:
-    Bash
-
+    3. Установите зависимости:
+   
     pip install -r requirements.txt
 
-    Настройте переменные окружения:
-    Создайте файл .env в корневой папке и добавьте туда ваш токен:
-    Code snippet
+    4. Настройте переменные окружения:
+       Создайте файл .env в корневой папке и добавьте туда ваш токен:
+       Code snippet
+   
+       TELEGRAM_TOKEN=ваш_токен_от_BotFather
 
-    TELEGRAM_TOKEN=ваш_токен_от_BotFather
-
-    Запустите бота:
-    Bash
-
+    5.Запустите бота:
+   
     python Telegram_Bot.py
    ```
 
